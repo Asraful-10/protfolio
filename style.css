@@ -117,7 +117,7 @@ input{
 }
 .about{
     display: flex;
-    background: #000000d9;
+    background: #000000de;
 }
 .about h1{
     position: relative;
@@ -159,4 +159,85 @@ input{
     border-style: none;
     box-shadow: -1px 2px 10px 4px #ea1538;
 }
+.services-section{
+    background: #000000d9;
+    height: 90vh;
+    width: 100%;
+    
+}
+.services-section i{
+    color: #ea1538;
+    font-size: 26px;
+    position: relative;
+    top: 18px;
+}  
 
+.services-section h1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+}
+.services-section h3{  
+
+    color: white;
+    position: relative;
+    top: 18px;
+
+}
+.services-section p{
+    position: relative;
+    top: 30px;
+    color: #a9b5c1;
+    margin: 0 5px;
+}
+.services-section a{
+    text-align: center;
+    background: #ea1538;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: relative;
+    top: 70px;
+    border-style: none;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0px 2px 10px 4px #ea1538;
+
+
+}
+.services-1{
+    position: relative;
+    background: black;
+    width: 240px;
+    height: 350px;
+    margin: 80px 10px 50px 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.services-2{
+   
+    position: relative;
+    background: black;
+    width: 240px;
+    height: 350px;
+    text-align: center;
+    left: 370px;
+    bottom: 400px;
+    border-radius: 10px;
+
+}
+.services-3{
+    position: relative;
+    background: black;
+    width: 240px;
+    height: 350px;
+    left: 650px;
+    bottom: 750px;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
