@@ -404,6 +404,7 @@ input{
 }
 .submit{
     background: #262626;
+    height: 200px;
 }
 .submit-button{
      display: block;
@@ -414,7 +415,39 @@ input{
      padding: 5px 10px;
      border-style: none;
      border-radius: 5px;
-    
+     
 
 }
+hr{
+    background:#ea1538;   
+    border-style: none;
+    position: relative;
+    height: 1px;
+}
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 7% 15px 7%;
+    font-family: 'Poltawski Nowy', serif;
+    overflow: hidden;
+
+}
+footer p{
+    font-size: 10px;
+
+}
+strong{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+footer a i{
+    font-size: 28px;
+    color: #ea1538;
+    margin: 0 5px;
+    
+}
+
 
