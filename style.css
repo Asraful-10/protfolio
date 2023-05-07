@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+  
 }
 .navbar{
     height: 100vh;
@@ -223,6 +223,13 @@ input{
     margin: 80px 10px 50px 110px;
     text-align: center;
     border-radius: 10px;
+
+}
+.services-1:hover{
+    border: 2px solid #ea1538;
+    box-shadow: 0px 2px 10px 4px #ea1538;
+    transition: .10s;
+
 }
 .services-2{
    
@@ -234,6 +241,11 @@ input{
     left: 380px;
     bottom: 400px;
     border-radius: 10px;
+}
+.services-2:hover{
+    border: 2px solid #ea1538;
+    box-shadow: 0px 2px 10px 4px #ea1538;
+    transition: .10s;
 
 }
 .services-3{
@@ -245,6 +257,12 @@ input{
     bottom: 750px;
     text-align: center;
     border-radius: 10px;
+}
+.services-3:hover{
+    border: 2px solid #ea1538;
+    box-shadow: 0px 2px 10px 4px #ea1538;
+    transition: .10s;
+
 }
 .contact{
     background: hsl(0, 0%, 15%);
@@ -354,7 +372,7 @@ input{
     width: 29%;
     border-radius: 5px;
 }
-.namber{
+.number{
     display: flex;
     position: relative;
     display: flex;
@@ -377,11 +395,26 @@ input{
 .message-text{
     display: block;
     position: relative;
-    margin-top: -315px;
+    margin-top: -310px;
     left: 250px;
     width: 59%;
     border-radius: 5px;
     border: 2px solid #ea1538; 
+
+}
+.submit{
+    background: #262626;
+}
+.submit-button{
+     display: block;
+     position: relative;
+     left: 758px;
+     background: #ea1538;
+     color: white;
+     padding: 5px 10px;
+     border-style: none;
+     border-radius: 5px;
+    
 
 }
 
